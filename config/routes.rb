@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'rss#news'
 
-  get '/news_scraping' => 'rss#news'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

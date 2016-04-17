@@ -1,7 +1,6 @@
 <% @articles.each do |key, value| %>
   <p>
-    <h2><%= key %></h2>
-    <h3><%= link_to value, value %></h3>
-    <!-- <%= link_to "詳しく見る", "#", remote: true, class="btn primary-btn" %> -->
+    <h3><%= key %></h2>
+    <h4><%= link_to value, value %></h3>
   </p>
 <% end %>
